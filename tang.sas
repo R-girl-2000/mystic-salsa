@@ -22,6 +22,9 @@ datalines;
 Ben   teen   M 5
 Julia teen   F 2
 Henry child  M 4
+Andrew adult M 3
+Hailey adult F 1
+Cyndi adult  F 6
 ;
 run;
 proc append base=tang_beverage data= tang_beverage2;
@@ -43,6 +46,9 @@ Anna $5.75 NW 01/20/2003
 Ben $5.00 NE 01/01/2003
 Julia $5.10 W 01/02/2003
 Henry $4.99 SE 01/01/2003
+Andrew $4.80 N 01/05/2003
+Hailey $5.00 SE 01/09/2003
+Cyndi $5.20  NE 01/15/2003
 ;
 run;
 proc print data= tang_money;
@@ -64,3 +70,34 @@ data tangdr.tang_merge;
 set work.tang_merge;
 run;
 
+/*create new variable*/
+data tang_merge;
+set tang_merge;
+spent= Price*Purchases;
+run;
+proc print data= tang_merge;
+run;
+/* get descriptives for all */
+proc univariate data= tang_merge;
+var spent price purchases;
+Title;
+run;
+/* get decriptives and test for normality*/
+proc univariate Normal data= tang_merge;
+var spent price purchases;
+Title;
+run;
+/* plot descriptives*/
+proc univariate data=tang_merge;
+var spent price purchases;
+histogram spent price purchases/NORMAL; /*overlay with normal dist curve*/
+probplot spent;
+title;
+run;
+/*run ANOVA*/
+proc ANOVA data= tang_merge;
+class age;
+model spent = age;
+means age/Tukey;
+title 'spending habits by age';
+run;
