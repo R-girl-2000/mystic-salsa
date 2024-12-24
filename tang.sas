@@ -47,7 +47,6 @@ Henry $4.99 SE 01/01/2003
 run;
 proc print data= tang_money;
 run;
-/* sort to prepare for merge by name*/
 proc sort data= tang_beverage;
 by NAME;
 run; 
