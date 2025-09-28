@@ -8,8 +8,6 @@ out=dataset_for_daniel
 REPLACE;
 FMTLIB=A.FORMATS_SPSS;
 run;
-proc format library= A.Formats_spss;
-run;
 proc contents data= dataset_for_daniel;
 run;
 proc print data=dataset_for_daniel;
