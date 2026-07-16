@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-16T07:03:22.546221Z",
+  "_captured_run_id": "r_f04222eb9b7d40a7bd9fdb30eba07717",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote tang_merge (10 rows, 7 columns).",
+    "NOTE: PROC PRINT completed: 10 observations printed, 8 variables",
+    "NOTE: PROC ANOVA: 10 observations, 1 effects analyzed"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

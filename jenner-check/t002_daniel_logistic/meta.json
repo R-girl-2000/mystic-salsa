@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_daniel_logistic",
+  "source_file": "dataset for daniel_SAS.sas",
+  "source_blob_sha": "b67d6813d1bf70fb2eb715d11aa7ec4087a060c6",
+  "source_commit": "4f8b5425c3883e5769c1ebe5ba89b8d310e46562",
+  "notes": "Sunscreen-use logistic-regression pipeline: SPSS import replaced by an inline survey sample with the same variable names/types; author's female/sunscreen recodes, PROC CORR/FREQ assumption checks and PROC LOGISTIC (CLASS + three CONTRASTs) kept verbatim."
+}

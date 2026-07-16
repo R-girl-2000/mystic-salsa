@@ -1,0 +1,63 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260715T062217Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: Option VALIDVARNAME changed to V7.
+NOTE: DATA dataset_for_daniel
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote dataset_for_daniel (20 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=dataset_for_daniel
+
+NOTE: PROC CONTENTS completed: 20 observations, 5 variables
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: DATA dataset_for_daniel
+
+
+NOTE: Read 20 rows from dataset_for_daniel.
+NOTE: Wrote dataset_for_daniel (20 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: DATA dataset_for_daniel2
+
+
+NOTE: Read 20 rows from dataset_for_daniel.
+NOTE: Wrote dataset_for_daniel2 (20 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_sunscreen.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: DATA dd_LR
+
+
+NOTE: Read 20 rows from dataset_for_daniel2.
+NOTE: Wrote dd_LR (20 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CORR data=dd_LR
+
+NOTE: ODS plot written: corr_heatmap.spec.json
+NOTE: PROC CORR ODS Graphics generated.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_at_1_female_sunscreen.spec.json
+NOTE: ODS plot written: freq_mosaic_at_18_skin_color_sunscreen.spec.json
+NOTE: ODS plot written: freq_mosaic_a_5_years_school_completed_sunscreen.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC LOGISTIC data=dd_LR
+
+NOTE: Using Python statsmodels.api.Logit version 0.14.6
+NOTE: ODS plot written: logistic_oddsratio.spec.json
+NOTE: ODS plot written: logistic_roc.spec.json
+NOTE: PROC LOGISTIC ODS Graphics generated.
+NOTE: PROC LOGISTIC completed. Results written to: ./ods_output/logistic_results.spec.json

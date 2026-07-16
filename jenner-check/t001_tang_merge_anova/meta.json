@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_tang_merge_anova",
+  "source_file": "tang.sas",
+  "source_blob_sha": "731b71f271c9a7369ff5c2366d7c354e8b9f4ac6",
+  "source_commit": "4f8b5425c3883e5769c1ebe5ba89b8d310e46562",
+  "notes": "Beverage-purchase merge pipeline: author's tang_beverage/tang_money DATALINES kept verbatim; external .txt infile and tangdr libname dropped so PROC SORT/merge/PRINT/UNIVARIATE/ANOVA run standalone."
+}
