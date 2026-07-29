@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_swann_coalesce_mixed",
+  "source_file": "Swann.sas",
+  "source_blob_sha": "16d54b6567c64270ee038131a436a8f734de0d03",
+  "source_commit": "4f8b5425c3883e5769c1ebe5ba89b8d310e46562",
+  "notes": "Multi-visit coalesce merge + mixed model: PROC CIMPORT transport imports from a network share replaced by inline baseline/V2/V3 samples of the columns coalesced; the author's visit-fixing, coalesce merge into swann_long, and PROC MIXED random-effects model run against them."
+}

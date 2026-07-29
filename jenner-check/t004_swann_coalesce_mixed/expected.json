@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-16T07:13:27.823424+00:00",
+  "_captured_run_id": "r_2e1ac0ec7c4946b28981cdf9794f83b5",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote swann_small (36 rows, 9 columns).",
+    "NOTE: PROC MIXED results written to: ./ods_output/mixed_results.spec.json"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

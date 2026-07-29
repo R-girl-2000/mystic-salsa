@@ -1,0 +1,43 @@
+        The Mixed Procedure        
+         Model Information         
+
+Item                          Value
+----------------------  -----------
+Dependent Variable      meno_status
+Estimation Method                ML
+Covariance Structure             UN
+Number of Observations           36
+
+Covariance Parameter Estimates
+
+Cov Parm          Estimate
+----------------  --------
+UN                  0.0417
+Cov(Group,visit)   -0.0866
+UN                  0.1796
+Residual            1.4591
+
+          Type III Tests of Fixed Effects           
+
+Effect          Num DF    Den DF   F Value    Pr > F
+------------  --------  --------  --------  --------
+visit                1      23.0      0.04    0.8364
+bc_use               1      23.0      1.03    0.3202
+visit*bc_use         1      23.0      0.20    0.6554
+
+         Fit Statistics          
+
+Statistic                   Value
+-----------------------  --------
+-2 Res Log Likelihood    123.0984
+AIC (Smaller is Better)  139.0984
+BIC (Smaller is Better)  151.7665
+
+                     Solution for Fixed Effects                     
+
+Effect        Estimate  Standard Error        DF   t Value  Pr > |t|
+------------  --------  --------------  --------  --------  --------
+Intercept       3.2579          0.4595         .      7.09    <.0001
+visit          -0.0638          0.3056         .     -0.21    0.8345
+bc_use          0.6579          0.6475         .      1.02    0.3096
+visit*bc_use   -0.2068          0.4575         .     -0.45    0.6512

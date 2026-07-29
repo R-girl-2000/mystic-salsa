@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_family_wide_to_long",
+  "source_file": "longitudinal_family.sas",
+  "source_blob_sha": "23f15100e4807d67cbe7967a006ba154ee2daff4",
+  "source_commit": "4f8b5425c3883e5769c1ebe5ba89b8d310e46562",
+  "notes": "Wide-to-long longitudinal reshape: SPSS import from a network share replaced by an inline sample of the same wide monthly variables; the author's 6-timepoint OUTPUT transform and PROC UNIVARIATE/CORR/MEANS/FREQ descriptives run against it."
+}

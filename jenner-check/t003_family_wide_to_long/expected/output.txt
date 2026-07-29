@@ -1,0 +1,553 @@
+                                                The UNIVARIATE Procedure
+                                                  Variable:  madepm01
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                        3.000000    Sum Observations           36.000000
+Std Deviation               2.374103    Variance                    5.636364
+Skewness                    0.586979    Kurtosis                   -1.225911
+Uncorrected SS            170.000000    Corrected SS               62.000000
+Coeff Variation            79.136757    Std Error Mean              0.685344
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      3.000000  Std Deviation  2.374103
+Median    2.000000  Variance       5.636364
+Mode      1.000000  Range          7.000000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 3.
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         1.000000
+25% Q1      1.000000
+50% Median  2.000000
+75% Q3      5.500000
+90%         6.000000
+95%         7.000000
+99%         7.000000
+100% Max    7.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     3.000000
+Value     1.000000  Value     5.000000
+Value     1.000000  Value     6.000000
+Value     1.000000  Value     6.000000
+Value     2.000000  Value     7.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.8821474  0.093382708
+Kolmogorov-Smirnov  0.246533108  0.394545216
+Anderson-Darling    0.662786324      0.05
+Cramer-von Mises    0.118657836  0.507176045
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         4.377361114  0.001103943
+Sign                      5.5  0.000976562
+Signed Rank                66  0.003345754
+
+
+                                                The UNIVARIATE Procedure
+                                                  Variable:  madepm06
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                        3.083333    Sum Observations           37.000000
+Std Deviation               2.810963    Variance                    7.901515
+Skewness                    0.074970    Kurtosis                   -1.897399
+Uncorrected SS            201.000000    Corrected SS               86.916667
+Coeff Variation            91.166380    Std Error Mean              0.811455
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      3.083333  Std Deviation  2.810963
+Median    3.000000  Variance       7.901515
+Mode      0.000000  Range          7.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      0.000000
+50% Median  3.000000
+75% Q3      6.000000
+90%         6.000000
+95%         7.000000
+99%         7.000000
+100% Max    7.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     5.000000
+Value     0.000000  Value     6.000000
+Value     0.000000  Value     6.000000
+Value     0.000000  Value     6.000000
+Value     1.000000  Value     7.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.842551638  0.029741896
+Kolmogorov-Smirnov  0.196989814  0.671104137
+Anderson-Darling    0.756523921     0.025
+Cramer-von Mises    0.112338417  0.534422931
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         3.799757776  0.002944517
+Sign                        4  0.0078125
+Signed Rank                36  0.011718724
+
+
+                                                The UNIVARIATE Procedure
+                                                  Variable:  madepm15
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                        3.583333    Sum Observations           43.000000
+Std Deviation               2.193309    Variance                    4.810606
+Skewness                    0.144893    Kurtosis                   -1.589729
+Uncorrected SS            207.000000    Corrected SS               52.916667
+Coeff Variation            61.208634    Std Error Mean              0.633154
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      3.583333  Std Deviation  2.193309
+Median    3.500000  Variance       4.810606
+Mode      1.000000  Range          6.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      1.000000
+1%          1.000000
+5%          1.000000
+10%         1.000000
+25% Q1      1.500000
+50% Median  3.500000
+75% Q3      5.500000
+90%         6.000000
+95%         7.000000
+99%         7.000000
+100% Max    7.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     1.000000  Value     5.000000
+Value     1.000000  Value     5.000000
+Value     1.000000  Value     6.000000
+Value     2.000000  Value     6.000000
+Value     2.000000  Value     7.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.900860427  0.162727261
+Kolmogorov-Smirnov  0.181486344  0.761324822
+Anderson-Darling    0.45733873      0.15
+Cramer-von Mises    0.069033819  0.766896675
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         5.659498322  0.000146732
+Sign                        6  0.000488281
+Signed Rank                78  0.002217859
+
+
+                                                The UNIVARIATE Procedure
+                                                  Variable:  madepm24
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                        2.750000    Sum Observations           33.000000
+Std Deviation               2.490893    Variance                    6.204545
+Skewness                    0.553224    Kurtosis                   -1.029967
+Uncorrected SS            159.000000    Corrected SS               68.250000
+Coeff Variation            90.577909    Std Error Mean              0.719059
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      2.750000  Std Deviation  2.490893
+Median    2.000000  Variance       6.204545
+Mode      0.000000  Range          7.000000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 3.
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      0.500000
+50% Median  2.000000
+75% Q3      5.000000
+90%         6.000000
+95%         7.000000
+99%         7.000000
+100% Max    7.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     3.000000
+Value     0.000000  Value     4.000000
+Value     0.000000  Value     6.000000
+Value     1.000000  Value     6.000000
+Value     2.000000  Value     7.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.892285072  0.12611437
+Kolmogorov-Smirnov  0.201663029  0.643282787
+Anderson-Darling    0.501376459       0.1
+Cramer-von Mises    0.076153263  0.723520821
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         3.824444225  0.002821373
+Sign                      4.5  0.00390625
+Signed Rank                45  0.007685883
+
+
+                                                The UNIVARIATE Procedure
+                                                  Variable:  madepm36
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                        3.333333    Sum Observations           40.000000
+Std Deviation               2.570226    Variance                    6.606061
+Skewness                   -0.174190    Kurtosis                   -1.514595
+Uncorrected SS            206.000000    Corrected SS               72.666667
+Coeff Variation            77.106774    Std Error Mean              0.741960
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      3.333333  Std Deviation  2.570226
+Median    3.500000  Variance       6.606061
+Mode      0.000000  Range          7.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      0.500000
+50% Median  3.500000
+75% Q3      5.500000
+90%         6.000000
+95%         7.000000
+99%         7.000000
+100% Max    7.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     5.000000
+Value     0.000000  Value     5.000000
+Value     0.000000  Value     6.000000
+Value     1.000000  Value     6.000000
+Value     3.000000  Value     7.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.899633963  0.156903187
+Kolmogorov-Smirnov  0.158320169  0.879119434
+Anderson-Darling    0.458039628      0.15
+Cramer-von Mises    0.064328005  0.79623485
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         4.492603503  0.000912253
+Sign                      4.5  0.00390625
+Signed Rank                45  0.007685883
+
+
+                                                The UNIVARIATE Procedure
+                                                  Variable:  madepm54
+
+                                                        Moments
+
+N                                 12    Sum Weights                       12
+Mean                        2.583333    Sum Observations           31.000000
+Std Deviation               2.574643    Variance                    6.628788
+Skewness                    0.671250    Kurtosis                   -1.129653
+Uncorrected SS            153.000000    Corrected SS               72.916667
+Coeff Variation            99.663610    Std Error Mean              0.743235
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      2.583333  Std Deviation  2.574643
+Median    1.500000  Variance       6.628788
+Mode      0.000000  Range          7.000000
+
+     NOTE: The mode displayed is the smallest of 2 modes with a count of 3.
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.000000
+1%          0.000000
+5%          0.000000
+10%         0.000000
+25% Q1      0.500000
+50% Median  1.500000
+75% Q3      5.000000
+90%         6.000000
+95%         7.000000
+99%         7.000000
+100% Max    7.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.000000  Value     3.000000
+Value     0.000000  Value     4.000000
+Value     0.000000  Value     6.000000
+Value     1.000000  Value     6.000000
+Value     1.000000  Value     7.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.861665994  0.051295493
+Kolmogorov-Smirnov  0.230713371  0.475879276
+Anderson-Darling    0.667634083      0.05
+Cramer-von Mises    0.106957826  0.558931424
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         3.475793846  0.005186741
+Sign                      4.5  0.00390625
+Signed Rank                45  0.007685883
+
+                    The CORR Procedure
+          6 Variables:    madepm01   madepm06   madepm15   madepm24   madepm36   madepm54
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+madepm01        12   3.00000   2.37410  36.00000   0.00000   7.00000
+madepm06        12   3.08333   2.81096  37.00000   0.00000   7.00000
+madepm15        12   3.58333   2.19331  43.00000   1.00000   7.00000
+madepm24        12   2.75000   2.49089  33.00000   0.00000   7.00000
+madepm36        12   3.33333   2.57023  40.00000   0.00000   7.00000
+madepm54        12   2.58333   2.57464  31.00000   0.00000   7.00000
+   Pearson Correlation Coefficients, N = 12
+            madepm01  madepm06  madepm15  madepm24  madepm36  madepm54
+--------  --------  --------  --------  --------  --------  --------
+madepm01   1.00000   0.23158  -0.20950  -0.01537  -0.22347   0.17847
+madepm06   0.23158   1.00000  -0.31825  -0.02272   0.39846  -0.09526
+madepm15  -0.20950  -0.31825   1.00000  -0.50336  -0.47304  -0.53260
+madepm24  -0.01537  -0.02272  -0.50336   1.00000  -0.11360   0.37919
+madepm36  -0.22347   0.39846  -0.47304  -0.11360   1.00000   0.31139
+madepm54   0.17847  -0.09526  -0.53260   0.37919   0.31139   1.00000
+                             mean of madepm, mothers health and fathers health and months 
+
+                                                  The MEANS Procedure
+
+ Variable        N           Mean        Std Dev        Minimum        Maximum
+ -----------------------------------------------------------------------------
+ madepm         72      3.0555556      2.4430925      0.0000000      7.0000000
+ HLTHM          72      2.3777778      0.8316321      1.0000000      3.9000000
+ HLTHP          71      2.6507042      0.9373021      1.2000000      4.0000000
+ months         72     22.6666667     18.2347756      1.0000000     54.0000000
+ -----------------------------------------------------------------------------
+
+                                         frequency of mothers depression scores
+
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+madepm    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+0                14     19.44           14        19.44
+1                12     16.67           26        36.11
+2                 9     12.50           35        48.61
+3                 8     11.11           43        59.72
+4                 4      5.56           47        65.28
+5                 6      8.33           53        73.61
+6                13     18.06           66        91.67
+7                 6      8.33           72       100.00
+
+                                   Cumulative    Cumulative
+HLTHM    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------
+1                1      1.39            1         1.39
+1.1              1      1.39            2         2.78
+1.2              2      2.78            4         5.56
+1.3              5      6.94            9        12.50
+1.4              3      4.17           12        16.67
+1.5              2      2.78           14        19.44
+1.6              1      1.39           15        20.83
+1.7              7      9.72           22        30.56
+1.8              4      5.56           26        36.11
+1.9              3      4.17           29        40.28
+2.1              3      4.17           32        44.44
+2.2              2      2.78           34        47.22
+2.3              3      4.17           37        51.39
+2.4              3      4.17           40        55.56
+2.5              1      1.39           41        56.94
+2.6              2      2.78           43        59.72
+2.7              5      6.94           48        66.67
+2.8              1      1.39           49        68.06
+2.9              2      2.78           51        70.83
+3                3      4.17           54        75.00
+3.1              3      4.17           57        79.17
+3.2              1      1.39           58        80.56
+3.3              2      2.78           60        83.33
+3.4              2      2.78           62        86.11
+3.5              1      1.39           63        87.50
+3.6              2      2.78           65        90.28
+3.7              3      4.17           68        94.44
+3.8              3      4.17           71        98.61
+3.9              1      1.39           72       100.00
+
+                                   Cumulative    Cumulative
+HLTHP    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------
+1.2              4      5.63            4         5.63
+1.3              2      2.82            6         8.45
+1.4              2      2.82            8        11.27
+1.5              3      4.23           11        15.49
+1.6              4      5.63           15        21.13
+1.7              1      1.41           16        22.54
+1.8              6      8.45           22        30.99
+1.9              1      1.41           23        32.39
+2                3      4.23           26        36.62
+2.2              1      1.41           27        38.03
+2.3              1      1.41           28        39.44
+2.4              3      4.23           31        43.66
+2.5              2      2.82           33        46.48
+2.6              2      2.82           35        49.30
+2.7              2      2.82           37        52.11
+2.8              4      5.63           41        57.75
+2.9              2      2.82           43        60.56
+3.2              3      4.23           46        64.79
+3.3              1      1.41           47        66.20
+3.4              2      2.82           49        69.01
+3.5              2      2.82           51        71.83
+3.6              5      7.04           56        78.87
+3.7              4      5.63           60        84.51
+3.8              4      5.63           64        90.14
+3.9              3      4.23           67        94.37
+4                4      5.63           71       100.00

@@ -1,0 +1,249 @@
+
+  Obs    NAME  Price  Region        Date
+-----  ------  -----  ------  ----------
+    1  Johnny    4.8  NE      01/10/2003
+    2  Max      4.99  SW      02/02/2003
+    3  Erika    5.15  W       01/20/2003
+    4  Anna     5.75  NW      01/20/2003
+    5  Ben         5  NE      01/01/2003
+    6  Julia     5.1  W       01/02/2003
+    7  Henry    4.99  SE      01/01/2003
+    8  Andrew    4.8  N       01/05/2003
+    9  Hailey      5  SE      01/09/2003
+   10  Cyndi     5.2  NE      01/15/2003
+
+  Obs    NAME    Age  Sex  Purchases  Price  Region        Date
+-----  ------  -----  ---  ---------  -----  ------  ----------
+    1  Andrew  adult  M            3    4.8  N       01/05/2003
+    2  Anna                        .   5.75  NW      01/20/2003
+    3  Ben     teen   M            5      5  NE      01/01/2003
+    4  Cyndi   adult  F            6    5.2  NE      01/15/2003
+    5  Erika                       .   5.15  W       01/20/2003
+    6  Hailey  adult  F            1      5  SE      01/09/2003
+    7  Henry   child  M            4   4.99  SE      01/01/2003
+    8  Johnny                      .    4.8  NE      01/10/2003
+    9  Julia   teen   F            2    5.1  W       01/02/2003
+   10  Max                         .   4.99  SW      02/02/2003
+
+  Obs    NAME    Age  Sex  Purchases  Price  Region        Date  spent
+-----  ------  -----  ---  ---------  -----  ------  ----------  -----
+    1  Andrew  adult  M            3    4.8  N       01/05/2003   14.4
+    2  Anna                        .   5.75  NW      01/20/2003      .
+    3  Ben     teen   M            5      5  NE      01/01/2003     25
+    4  Cyndi   adult  F            6    5.2  NE      01/15/2003   31.2
+    5  Erika                       .   5.15  W       01/20/2003      .
+    6  Hailey  adult  F            1      5  SE      01/09/2003      5
+    7  Henry   child  M            4   4.99  SE      01/01/2003  19.96
+    8  Johnny                      .    4.8  NE      01/10/2003      .
+    9  Julia   teen   F            2    5.1  W       01/02/2003   10.2
+   10  Max                         .   4.99  SW      02/02/2003      .
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  spent
+
+                                                        Moments
+
+N                                  6    Sum Weights                        6
+Mean                       17.626667    Sum Observations          105.760000
+Std Deviation               9.685508    Variance                   93.809067
+Skewness                    0.151201    Kurtosis                   -1.040072
+Uncorrected SS           2333.241600    Corrected SS              469.045333
+Coeff Variation            54.948041    Std Error Mean              3.954092
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      17.626667  Std Deviation   9.685508
+Median    17.180000  Variance       93.809067
+Mode              .  Range          26.200000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min       5.000000
+1%           5.000000
+5%           5.000000
+10%          5.000000
+25% Q1      10.200000
+50% Median  17.180000
+75% Q3      25.000000
+90%         31.200000
+95%         31.200000
+99%         31.200000
+100% Max    31.200000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value      5.000000  Value     10.200000
+Value     10.200000  Value     14.400000
+Value     14.400000  Value     19.960000
+Value     19.960000  Value     25.000000
+Value     25.000000  Value     31.200000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         4.457829044  0.006653839
+Sign                        3   0.03125
+Signed Rank                21  0.027707754
+
+
+                                                The UNIVARIATE Procedure
+                                                    Variable:  Price
+
+                                                        Moments
+
+N                                 10    Sum Weights                       10
+Mean                        5.078000    Sum Observations           50.780000
+Std Deviation               0.269642    Variance                    0.072707
+Skewness                    1.844665    Kurtosis                    4.591775
+Uncorrected SS            258.515200    Corrected SS                0.654360
+Coeff Variation             5.309999    Std Error Mean              0.085268
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      5.078000  Std Deviation  0.269642
+Median    5.000000  Variance       0.072707
+Mode      4.800000  Range          0.950000
+
+     NOTE: The mode displayed is the smallest of 3 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      4.800000
+1%          4.800000
+5%          4.800000
+10%         4.800000
+25% Q1      4.990000
+50% Median  5.000000
+75% Q3      5.150000
+90%         5.475000
+95%         5.750000
+99%         5.750000
+100% Max    5.750000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     4.800000  Value     5.000000
+Value     4.800000  Value     5.100000
+Value     4.990000  Value     5.150000
+Value     4.990000  Value     5.200000
+Value     5.000000  Value     5.750000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         59.553265381         0
+Sign                        5  0.001953125
+Signed Rank                55  0.005062153
+
+
+                                                The UNIVARIATE Procedure
+                                                  Variable:  Purchases
+
+                                                        Moments
+
+N                                  6    Sum Weights                        6
+Mean                        3.500000    Sum Observations           21.000000
+Std Deviation               1.870829    Variance                    3.500000
+Skewness                   -0.000000    Kurtosis                   -1.200000
+Uncorrected SS             91.000000    Corrected SS               17.500000
+Coeff Variation            53.452248    Std Error Mean              0.763763
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      3.500000  Std Deviation  1.870829
+Median    3.500000  Variance       3.500000
+Mode             .  Range          5.000000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      1.000000
+1%          1.000000
+5%          1.000000
+10%         1.000000
+25% Q1      2.000000
+50% Median  3.500000
+75% Q3      5.000000
+90%         6.000000
+95%         6.000000
+99%         6.000000
+100% Max    6.000000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     1.000000  Value     2.000000
+Value     2.000000  Value     3.000000
+Value     3.000000  Value     4.000000
+Value     4.000000  Value     5.000000
+Value     5.000000  Value     6.000000
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         4.582575695  0.005933545
+Sign                        3   0.03125
+Signed Rank                21  0.027707754
+
+
+Dependent Variable: spent
+
+Source                  DF  Sum of Squares     Mean Square    F Value     Pr > F
+--------------------------------------------------------------------------------
+age                      2          7.1787          3.5893       0.02     0.9771
+Error                    3        461.8667        153.9556          .          .
+Corrected Total          5        469.0453                          .          .
+
+R-Square: 0.0153  Root MSE: 12.4079  Mean: 17.6267
+
+
+Tukey's Studentized Range (HSD) Test for spent
+
+Alpha                            0.05
+Error Degrees of Freedom         3
+Error Mean Square                153.955556
+
+Level of          -----------age----------
+age                   N         Mean      Std Dev
+
+adult                 3      16.8667      13.2730
+child                 1      19.9600       0.0000
+teen                  2      17.6000      10.4652
+
+Comparisons significant at the 0.05 level are indicated by ***.
+
+Comparison             Difference      Std Err  Significant
+------------------------------------------------------------
+adult - child             -3.0933      14.3274             
+adult - teen              -0.7333      11.3268             
+child - teen               2.3600      15.1965             
+
+

@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-16T07:05:31.723581+00:00",
+  "_captured_run_id": "r_073452687d154f72805f37333f109a83",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote dataset_for_daniel2 (20 rows, 7 columns).",
+    "NOTE: PROC LOGISTIC completed. Results written to: ./ods_output/logistic_results.spec.json"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
